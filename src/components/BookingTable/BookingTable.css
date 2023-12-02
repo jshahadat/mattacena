@@ -1,0 +1,25 @@
+.bookingTableBg {
+     background: linear-gradient(0deg, #141111B0, #141111B0), url(https://i.ibb.co/71x73NQ/collg-img.png);
+     background-repeat: no-repeat;
+     height: 793px;
+     background-position: center;
+     background-size: cover;
+
+}
+
+.dateInput {
+     height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+     .bookingTableBg {
+          background: linear-gradient(0deg, #141111B0, #141111B0), url(https://i.ibb.co/71x73NQ/collg-img.png);
+          background-repeat: no-repeat;
+          background-position: top;
+          background-size: contain;
+          height: 541px;
+
+     }
+}

@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1 {
+     font-family: Marcellus SC;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.landingBackground {
+     background: url("https://i.ibb.co/HB9rH2r/Black-and-Maroon-Modern-Italian-Restaurant-Menu-Portrait-1.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100vw;
+}
+
+.storyBg {
+     background-image: url("./assets/storyBg.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+
+}
+
+.storylargeBg {
+     background-image: url("./assets/st-bg.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 100vh;
+     width: 100vw;
+}
+
+@media only screen and (max-width: 600px) {
+     .testimonialBg {
+          background-image: url("./assets/testimonial-bg.png");
+          /* background-position: center; */
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 270px;
+
+     }
+
+     .galleryBg {
+          background-image: url("./assets/Gallery2.png");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          /* height: 270px; */
+          width: 296px;
+     }
 }
